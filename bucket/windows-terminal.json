@@ -33,6 +33,9 @@
             "Windows Terminal"
         ]
     ],
+    "suggest": {
+        "vcredist": "extras/vcredist2019"
+    },
     "checkver": {
         "url": "https://github.com/microsoft/terminal/releases",
         "regex": "WindowsTerminal_([\\d.]+)_8wekyb3d8bbwe\\.msixbundle"
